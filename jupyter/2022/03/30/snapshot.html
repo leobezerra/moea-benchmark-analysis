@@ -97,7 +97,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      14 min read
+      13 min read
     
 </span></p>
 
@@ -6680,6 +6680,9 @@ if (outputEl) {{
     
     
 <div class="cell border-box-sizing code_cell rendered">
+<details class="description">
+      <summary class="btn btn-sm" data-open="Hide Code" data-close="Show Code"></summary>
+        <p></p>
 <div class="input">
 
 <div class="inner_cell">
@@ -6695,6 +6698,7 @@ if (outputEl) {{
 </div>
 </div>
 
+    </details>
 </div>
     
 
@@ -7015,7 +7019,8 @@ if (outputEl) {{
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df_rpd_10k</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">query</span><span class="p">(</span><span class="sa">f</span><span class="s2">"indicator == 'rpd' and FE == 10000 and setup == 'tuned'"</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#hide_output</span>
+<span class="n">df_rpd_10k</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">query</span><span class="p">(</span><span class="sa">f</span><span class="s2">"indicator == 'rpd' and FE == 10000 and setup == 'tuned'"</span><span class="p">)</span>
 <span class="n">df_rpd_10k</span><span class="p">[</span><span class="s2">"nobj"</span><span class="p">]</span> <span class="o">=</span> <span class="n">df_rpd_10k</span><span class="p">[</span><span class="s2">"nobj"</span><span class="p">]</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="s2">"str"</span><span class="p">)</span>
 <span class="n">fig7</span> <span class="o">=</span> <span class="n">px</span><span class="o">.</span><span class="n">box</span><span class="p">(</span>
     <span class="n">df_rpd_10k</span><span class="p">,</span>
@@ -7032,27 +7037,6 @@ if (outputEl) {{
 </div>
 
     </details>
-<div class="output_wrapper">
-<div class="output">
-
-<div class="output_area">
-
-<div class="output_subarea output_stream output_stderr output_text">
-<pre>/usr/local/lib/python3.7/dist-packages/ipykernel_launcher.py:3: SettingWithCopyWarning:
-
-
-A value is trying to be set on a copy of a slice from a DataFrame.
-Try using .loc[row_indexer,col_indexer] = value instead
-
-See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
 </div>
     
 
