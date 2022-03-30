@@ -7019,8 +7019,7 @@ if (outputEl) {{
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#hide_output</span>
-<span class="n">df_rpd_10k</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">query</span><span class="p">(</span><span class="sa">f</span><span class="s2">"indicator == 'rpd' and FE == 10000 and setup == 'tuned'"</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df_rpd_10k</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">query</span><span class="p">(</span><span class="sa">f</span><span class="s2">"indicator == 'rpd' and FE == 10000 and setup == 'tuned'"</span><span class="p">)</span>
 <span class="n">df_rpd_10k</span><span class="p">[</span><span class="s2">"nobj"</span><span class="p">]</span> <span class="o">=</span> <span class="n">df_rpd_10k</span><span class="p">[</span><span class="s2">"nobj"</span><span class="p">]</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="s2">"str"</span><span class="p">)</span>
 <span class="n">fig7</span> <span class="o">=</span> <span class="n">px</span><span class="o">.</span><span class="n">box</span><span class="p">(</span>
     <span class="n">df_rpd_10k</span><span class="p">,</span>
