@@ -8,7 +8,7 @@ https://leobezerra.github.io/moea-benchmark-analysis/
 
 This interactive repository reproduces the analyses originally performed in the following paper:
 
-Leonardo C. T. Bezerra, Manuel López-Ibáñez, and Thomas Stützle. A large-scale experimental evaluation of high-performing multi- and many-objective evolutionary algorithms. Evolutionary Computation, MIT Press, 2018.
+> Leonardo C. T. Bezerra, Manuel López-Ibáñez, and Thomas Stützle. A large-scale experimental evaluation of high-performing multi- and many-objective evolutionary algorithms. Evolutionary Computation, MIT Press, 2018.
 
 [bibtex](https://lopez-ibanez.eu/LopezIbanez_bib.html#BezLopStu2017assessment) | [DOI](http://doi.org/10.1162/evco_a_00217) | [PDF](https://lopez-ibanez.eu/doc/BezLopStu2017assessment.pdf) | [Supplementary material](http://iridia.ulb.ac.be/supp/IridiaSupp2015-007/)
 
